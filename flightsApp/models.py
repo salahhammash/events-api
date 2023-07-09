@@ -11,6 +11,7 @@ class Event(models.Model):
     event_lon = models.FloatField() 
     desc = models.TextField()
     created_at = models.TimeField(auto_now_add=True)
+    
 
 
 
